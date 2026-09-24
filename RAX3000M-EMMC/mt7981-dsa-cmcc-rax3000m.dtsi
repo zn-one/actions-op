@@ -18,17 +18,17 @@
 
 		red_led: red {
 			label = "rax3000m:red";
-			gpios = <&pio 35 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 6 GPIO_ACTIVE_LOW>;
 		};
 
 		green_led: green {
 			label = "rax3000m:green";
-			gpios = <&pio 9 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 4 GPIO_ACTIVE_LOW>;
 		};
 
 		blue_led: blue {
 			label = "rax3000m:blue";
-			gpios = <&pio 12 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 29 GPIO_ACTIVE_LOW>;
 		};
 	};
 
